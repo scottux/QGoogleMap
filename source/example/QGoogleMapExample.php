@@ -7,7 +7,7 @@ class QGoogleMapExample extends QForm {
 	protected function Form_Create() {
 		$this->objMap = new QGoogleMap($this);
 		// This needs to be a unique key for each domain. Get yours @ http://code.google.com/apis/maps/signup.html
-		$this->objMap->MapKey = 'ABQIAAAAD5ed9hDt-Mvktac_TQQUXBS6ZariomNoMgfABIFXuTLicRrUjRRQ-OHO-iLVRErsZOeNfWXJcCao-g';
+		$this->objMap->MapKey = 'AIzaSyAj7rf2EKsa8aZb7wKONJ-b0PdCLbW9tOs';
 		$this->objMap->IconColor = 'NAUTICA';
 		$this->objMap->IconStyle = 'HOUSE';
 		$this->objMap->MapType = TRUE;
